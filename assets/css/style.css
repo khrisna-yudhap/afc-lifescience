@@ -297,7 +297,7 @@ html * {
   text-align: center;
   color: #333333;
   font-size: 18pt;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .opportunity-section span {
   color: #f30210;
@@ -308,133 +308,66 @@ html * {
   justify-content: center;
 }
 .package-card {
-  padding: 20px;
   margin: 20px;
-  border-radius: 10px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.package-card h1 {
-  font-weight: 900;
-  font-size: 24pt;
-  text-align: center;
-}
-
-.package-card hr {
-  color: rgba(0, 0, 0, 36);
-  width: 100%;
-}
 .package-card img {
   max-width: 100%;
-  border-radius: 10px;
-  margin: 10px auto;
+  border-radius: 10px 10px 0 0;
 }
-.package-card .striped-price {
-  text-decoration: line-through;
-  font-size: 22pt;
-  font-weight: 700;
-  margin: 0;
-}
-.package-card .price {
-  font-size: 26pt;
-  font-weight: 900;
-  margin: 0;
-}
-.package-card .package-item {
-  text-align: start;
+
+.package-card-body {
+  width: 100%;
   padding: 20px;
-  font-size: 14pt;
-  margin: 0px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.package-card .btn-package {
-  background-color: #ffffff;
-  width: 200px;
+.package-card-body h2 {
+  font-weight: 900;
+  font-size: 24px;
+  color: #333;
 }
-.package-card .btn-package:hover {
-  background-color: #ffffff;
+
+.package-card-body .price-tag p {
+  text-align: start;
 }
-.package-card .btn-package a {
+
+.package-card-body .price-tag .striped-price {
+  text-decoration: line-through;
+  font-weight: 200;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.package-card-body .price-tag p {
+  font-weight: 900;
+  font-size: 2em;
+  color: #f30210;
+  margin-bottom: 10px;
+}
+
+.package-card-body .package-benefits {
+  font-size: 12px;
+  color: #616161;
+}
+.package-card-body .package-benefits li {
+  padding-left: 10px;
+}
+
+.package-card-body .btn-package {
+  background-color: #f30210;
+  margin: 20px auto;
+  width: 100%;
+}
+.package-card-body .btn-package a {
+  color: #ffffff;
   text-decoration: none;
-  font-weight: 700;
 }
-
-/* COLOR PACKAGE RUBY */
-.ruby {
-  color: #adacff !important;
-  background-color: #403ebd;
-}
-
-.ruby .striped-price {
-  color: #adacff;
-}
-
-.ruby .price {
-  color: #ffffff;
-}
-
-.ruby .package-item {
-  color: #adacff;
-}
-.ruby .package-item span {
-  color: #adacff;
-  font-weight: 700;
-}
-
-.ruby .btn-package a {
-  color: #403ebd;
-}
-
-/* COLOR PACKAGE SAPHHIRE */
-.sapphire {
-  color: #d9eaff;
-  background-color: #67acff;
-}
-
-.sapphire .striped-price {
-  color: #306fbb;
-}
-.sapphire .price {
-  color: #ffffff;
-}
-.sapphire .package-item {
-  color: #d9eaff;
-}
-.sapphire .package-item span {
-  color: #d9eaff;
-  font-weight: 700;
-}
-
-.sapphire .btn-package a {
-  color: #67acff;
-}
-
-/* COLOR PACKAGE DIAMOND */
-.diamond {
-  color: #d9eaff;
-  background-color: #306fbb;
-}
-
-.diamond .striped-price {
-  color: #0d325f;
-}
-.diamond .price {
-  color: #ffffff;
-}
-.diamond .package-item {
-  color: #d9eaff;
-}
-.diamond .package-item span {
-  color: #d9eaff;
-  font-weight: 700;
-}
-
-.diamond .btn-package a {
-  color: #306fbb;
-}
-
 .read-more a {
   margin: 20px auto;
   width: 250px;
@@ -592,7 +525,62 @@ footer img {
     padding: 10px;
   }
 
-  .package-card h1 {
-    font-size: 22px;
+  .package-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .package-card img {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .package-card-body {
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .package-card-body h2 {
+    font-size: 14px;
+  }
+
+  .package-card-body .price-tag .striped-price {
+    text-decoration: line-through;
+    font-weight: 200;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .package-card-body .price-tag p {
+    font-weight: 900;
+    font-size: 18px;
+    color: #f30210;
+    margin-bottom: 5px;
+    padding: 0;
+  }
+
+  .package-card-body .package-benefits {
+    font-size: 10px;
+    color: #616161;
+    margin-bottom: 10px;
+  }
+  .package-card-body .package-benefits li {
+    padding-left: 10px;
+    font-size: 8px;
+  }
+
+  .package-card-body .btn-package {
+    background-color: #f30210;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .package-card-body .btn-package a {
+    color: #ffffff;
+    font-size: 10px;
+    text-decoration: none;
   }
 }
