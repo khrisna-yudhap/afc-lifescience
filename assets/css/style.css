@@ -525,7 +525,7 @@ footer img {
     padding: 10px;
   }
 
-  .package-card {
+  /* .package-card {
     display: flex;
     flex-direction: row;
   }
@@ -582,5 +582,5 @@ footer img {
     color: #ffffff;
     font-size: 10px;
     text-decoration: none;
-  }
+  } */
 }
