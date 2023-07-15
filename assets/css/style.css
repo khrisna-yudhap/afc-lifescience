@@ -416,7 +416,7 @@ footer img {
 
 .about-title {
   width: fit-content;
-  margin: 50px auto 25px;
+  margin: 70px auto 25px;
 }
 .about-title h2 {
   font-weight: 900;
@@ -552,6 +552,106 @@ footer img {
   height: 300px;
   border-radius: 10px;
 }
+
+/*Products Page*/
+.welcome-product{
+  margin-bottom: 150px;
+}
+
+.welcome-product img {
+  width: 35%;
+  height: 35%;
+}
+
+.welcome-product p{
+  width: 40%;
+  margin-top: auto;
+  color: #616161;
+  text-align: center;
+}
+
+.certification{
+  width: 70%;
+  background-color: #FFFFFF;
+  padding: 10px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  box-shadow: inset;
+}
+
+.certification img {
+  max-width: 30%;
+  max-height: 30%;
+  padding: 30px;
+
+}
+
+.certification-desc {
+  align-items: center;
+}
+
+.certification-desc p {
+  width: 70%;
+  margin: auto;
+  color: #616161;
+  text-align: center;
+}
+
+.product-subarashi img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 30%;
+  height: 30%;
+}
+
+.product-subarashi p {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.ingredients-subarashi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients-subarashi .ingredients-subarashi-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  color: #000;
+}
+
+.ingredients-subarashi-card img {
+  width: 60%;
+  margin: 20px;
+}
+
+.poster-subarashi {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.poster-subarashi img {
+  width: 40%;
+  margin: 10px;
+}
+
+
+/*End of Products Page*/
 
 /* RESPONSIVE MOBILE  */
 
@@ -700,6 +800,95 @@ footer img {
     height: 200px;
     border-radius: 10px;
   }
+
+  /*Products Page*/
+.welcome-product{
+  margin-bottom: 15px;
+}
+
+.welcome-product img {
+  width: 70%;
+  height: 70%;
+}
+
+.welcome-product p{
+  width: 70%;
+  margin-top: auto;
+  color: #616161;
+  text-align: center;
+}
+
+.certification{
+  width: 90%;
+  background-color: #FFFFFF;
+  padding: 10px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  box-shadow: inset;
+}
+
+.certification img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px;
+
+}
+
+.certification-desc {
+  align-items: center;
+}
+
+.certification-desc p {
+  width: 90%;
+  margin: auto;
+  color: #616161;
+  text-align: justify;
+}
+
+.product-subarashi img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 90%;
+  height: 90%;
+}
+
+.product-subarashi p {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}
+
+.ingredients-subarashi {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients-subarashi .ingredients-subarashi-card {
+  width: 50%;
+}
+
+.ingredients-subarashi-card img {
+  width: 90%;
+  margin: 0px;
+}
+
+.poster-subarashi {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.poster-subarashi img {
+  width: 90%;
+}
+/*End of Products Page*/
 
   /* .package-card {
     display: flex;
