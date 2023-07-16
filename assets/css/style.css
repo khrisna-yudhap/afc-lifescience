@@ -423,6 +423,10 @@ footer img {
   font-size: 36px;
   color: #333;
 }
+
+.about-title p {
+  color: #616161;
+}
 .about-afc {
   padding: 10px;
 }
@@ -551,6 +555,19 @@ footer img {
   width: 50%;
   height: 300px;
   border-radius: 10px;
+}
+
+.welcome-product-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.welcome-product-section .halal-image img {
+  max-width: 50%;
+}
+.welcome-product-section .halal-desc {
+  max-width: 50%;
 }
 
 /* RESPONSIVE MOBILE  */
