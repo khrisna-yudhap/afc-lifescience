@@ -950,12 +950,13 @@ footer img {
 }
 
 .ingredients-subarashi .ingredients-subarashi-card {
-  width: 50%;
+  width: 60%;
+  padding-right: 50px;
 }
 
 .ingredients-subarashi-card img {
   width: 90%;
-  margin: 0px;
+  margin-left: 60px;
 }
 
 .poster-subarashi {
@@ -998,13 +999,13 @@ footer img {
 }
 
 .ingredients-utsukushhii .ingredients-utsukushhii-card {
-  width: 70%;
-  padding-left: 30px;
+  width: 80%;
+  padding-left: 100px;
 }
 
 .ingredients-utsukushhii-card img {
-  width: 60%;
-  margin-right: 45px;
+  width: 80%;
+  margin-right: 60%;
 }
 
 .poster-utsukushhii {
