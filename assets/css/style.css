@@ -402,24 +402,6 @@ footer img {
   background-size: 100%;
 }
 
-.page-banner-opportunity {
-  height: 200px;
-  position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/handshake.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-}
-
-.page-banner-opportunity .page-title-opportunity {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .page-banner .page-title {
   margin: 0;
   position: absolute;
@@ -432,18 +414,6 @@ footer img {
   color: #fff;
 }
 
-.page-banner-opportunity .page-title-opportunity {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.page-banner-opportunity .page-title-opportunity h1 {
-  font-weight: 900;
-  color: #fff;
-}
-
 .about-title {
   width: fit-content;
   margin: 70px auto 25px;
@@ -452,10 +422,6 @@ footer img {
   font-weight: 900;
   font-size: 36px;
   color: #333;
-}
-
-.about-title p {
-  color: #616161;
 }
 .about-afc {
   padding: 10px;
@@ -588,7 +554,7 @@ footer img {
 }
 
 /*Products Page*/
-.welcome-product {
+.welcome-product{
   margin-bottom: 150px;
 }
 
@@ -597,18 +563,18 @@ footer img {
   height: 35%;
 }
 
-.welcome-product p {
+.welcome-product p{
   width: 40%;
   margin-top: auto;
   color: #616161;
   text-align: center;
 }
 
-.certification {
+.certification{
   width: 70%;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   padding: 10px;
-  display: flex;
+  display: flex;  
   justify-content: center;
   align-items: center;
   margin: 20px auto;
@@ -619,6 +585,7 @@ footer img {
   max-width: 30%;
   max-height: 30%;
   padding: 30px;
+
 }
 
 .certification-desc {
@@ -915,91 +882,140 @@ footer img {
     border-radius: 10px;
   }
 
-
   /*Products Page*/
-  .welcome-product {
-    margin-bottom: 15px;
-  }
+.welcome-product{
+  margin-bottom: 15px;
+}
 
-  .welcome-product img {
-    width: 70%;
-    height: 70%;
-  }
+.welcome-product img {
+  width: 70%;
+  height: 70%;
+}
 
-  .welcome-product p {
-    width: 70%;
-    margin-top: auto;
-    color: #616161;
-    text-align: center;
-  }
+.welcome-product p{
+  width: 70%;
+  margin-top: auto;
+  color: #616161;
+  text-align: center;
+}
 
-  .certification {
-    width: 90%;
-    background-color: #ffffff;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-    box-shadow: inset;
-  }
+.certification{
+  width: 90%;
+  background-color: #FFFFFF;
+  padding: 10px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  box-shadow: inset;
+}
 
-  .certification img {
-    max-width: 100%;
-    max-height: 100%;
-    padding: 20px;
-  }
+.certification img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px;
 
-  .certification-desc {
-    align-items: center;
-  }
+}
 
-  .certification-desc p {
-    width: 90%;
-    margin: auto;
-    color: #616161;
-    text-align: justify;
-  }
+.certification-desc {
+  align-items: center;
+}
 
-  .product-subarashi img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    width: 90%;
-    height: 90%;
-  }
+.certification-desc p {
+  width: 90%;
+  margin: auto;
+  color: #616161;
+  text-align: justify;
+}
 
-  .product-subarashi p {
-    width: 90%;
-    margin: auto;
-    text-align: justify;
-  }
+.product-subarashi img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 90%;
+  height: 90%;
+}
 
-  .ingredients-subarashi {
-    display: flex;
-    justify-content: center;
-  }
+.product-subarashi p {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}
 
-  .ingredients-subarashi .ingredients-subarashi-card {
-    width: 50%;
-  }
+.ingredients-subarashi {
+  display: flex;
+  justify-content: center;
+}
 
-  .ingredients-subarashi-card img {
-    width: 90%;
-    margin: 0px;
-  }
+.ingredients-subarashi .ingredients-subarashi-card {
+  width: 50%;
+}
 
-  .poster-subarashi {
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-  }
+.ingredients-subarashi-card img {
+  width: 90%;
+  margin: 0px;
+}
+
+.poster-subarashi {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .poster-subarashi img {
+  width: 90%;
+}
+
+.product-utsukushhii img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 90%;
+  height: 90%;
+}
+
+.product-utsukushhii p {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}
+
+.main-ingredients-utsukushhii img {
+  width: 50%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients-utsukushhii {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients-utsukushhii .ingredients-utsukushhii-card {
+  width: 70%;
+  padding-left: 30px;
+}
+
+.ingredients-utsukushhii-card img {
+  width: 60%;
+  margin-right: 45px;
+}
+
+.poster-utsukushhii {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.poster-utsukushhii img {
   width: 90%;
 }
 /*End of Products Page*/
@@ -1007,9 +1023,6 @@ footer img {
   /* .package-card {
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    flex-direction: column;
-    justify-content: center;
   }
   .package-card img {
     width: 50%;
@@ -1064,5 +1077,5 @@ footer img {
     color: #ffffff;
     font-size: 10px;
     text-decoration: none;
-  } 
-}S
+  } */
+}
