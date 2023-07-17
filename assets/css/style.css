@@ -627,6 +627,8 @@ footer img {
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 30px;
+  margin-right: -30px;
+  margin-left: -30px;
   justify-content: center;
   align-items: center;
   width: 30%;
@@ -650,7 +652,86 @@ footer img {
   margin: 10px;
 }
 
+.btn-product-subarashi .btn-buy-subarashi {
+  background-color: #f30210;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+.btn-product-subarashi .btn-buy-subarashi:hover {
+  background-color: #bb040d;
+  color: #e5e5e5;
+}
 
+.product-utsukushhii img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 30%;
+  height: 30%;
+}
+
+.product-utsukushhii p {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.main-ingredients-utsukushhii img {
+  width: 23%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ingredients-utsukushhii {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients-utsukushhii .ingredients-utsukushhii-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-right: -60px;
+  margin-left: -60px;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.ingredients-utsukushhii-card img {
+  width: 50%;
+  margin: 10px;
+}
+
+.poster-utsukushhii {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.poster-utsukushhii img {
+  width: 40%;
+  margin: 10px;
+}
+
+.btn-product-utukushhii .btn-buy-utukushhii {
+  background-color: #f30210;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+.btn-product-utukushhii .btn-buy-utukushhii:hover {
+  background-color: #bb040d;
+  color: #e5e5e5;
+}
 /*End of Products Page*/
 
 /* RESPONSIVE MOBILE  */
@@ -886,6 +967,55 @@ footer img {
 }
 
 .poster-subarashi img {
+  width: 90%;
+}
+
+.product-utsukushhii img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 90%;
+  height: 90%;
+}
+
+.product-utsukushhii p {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}
+
+.main-ingredients-utsukushhii img {
+  width: 50%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients-utsukushhii {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients-utsukushhii .ingredients-utsukushhii-card {
+  width: 70%;
+  padding-left: 30px;
+}
+
+.ingredients-utsukushhii-card img {
+  width: 60%;
+  margin-right: 45px;
+}
+
+.poster-utsukushhii {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.poster-utsukushhii img {
   width: 90%;
 }
 /*End of Products Page*/
