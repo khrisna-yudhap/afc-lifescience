@@ -686,6 +686,7 @@ footer img {
 }
 
 .ingredients-utsukushhii {
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -697,7 +698,6 @@ footer img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 20px;
   margin-right: -60px;
   margin-left: -60px;
   justify-content: center;
@@ -706,7 +706,7 @@ footer img {
 }
 
 .ingredients-utsukushhii-card img {
-  width: 50%;
+  width: 60%;
   margin: 10px;
 }
 
@@ -729,6 +729,101 @@ footer img {
   color: #ffffff;
 }
 .btn-product-utukushhii .btn-buy-utukushhii:hover {
+  background-color: #bb040d;
+  color: #e5e5e5;
+}
+
+.product-sensei-suru img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 7%;
+  height: 7%;
+}
+
+.product-sensei-suru p {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.main-ingredients-sensei-suru {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+
+.main-ingredients-sensei-suru img {
+  width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ingredients-sensei-suru {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients-sensei-suru .ingredients-sensei-suru-card-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -60px;
+  margin-left: -60px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.ingredients-sensei-suru-card-1 img {
+  width: 23%;
+  margin: 10px;
+}
+
+.ingredients-sensei-suru .ingredients-sensei-suru-card-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -60px;
+  margin-left: -60px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.ingredients-sensei-suru-card-2 img {
+  width: 23%;
+  margin: 10px;
+}
+.poster-sensei-suru {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.poster-sensei-suru img {
+  width: 40%;
+  margin: 10px;
+}
+
+.btn-product-sensei-suru .btn-buy-sensei-suru {
+  background-color: #f30210;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+.btn-product-sensei-suru .btn-buy-sensei-suru:hover {
   background-color: #bb040d;
   color: #e5e5e5;
 }
@@ -945,18 +1040,20 @@ footer img {
 }
 
 .ingredients-subarashi {
-  display: flex;
-  justify-content: center;
+  margin-top: 20px;
 }
 
 .ingredients-subarashi .ingredients-subarashi-card {
-  width: 60%;
-  padding-right: 50px;
+  margin-top: 0px;
+  width: 65%;
+  padding-right: 0px;
 }
 
 .ingredients-subarashi-card img {
-  width: 90%;
-  margin-left: 60px;
+  margin: 10px;
+  width: 75%;
+  padding-right: 10px;
+  padding-left: 13px;
 }
 
 .poster-subarashi {
@@ -1009,14 +1106,61 @@ footer img {
 }
 
 .poster-utsukushhii {
-  margin-top: 30px;
-  display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .poster-utsukushhii img {
+  width: 90%;
+}
+
+.product-sensei-suru img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 20%;
+  height: 20%;
+}
+
+.product-sensei-suru p {
+  width: 90%;
+  margin: auto;
+  text-align:justify;
+}
+
+.main-ingredients-sensei-suru img {
+  width: 60%;
+}
+
+.ingredients-sensei-suru {
+  margin-top: 8px;
+}
+
+.ingredients-sensei-suru .ingredients-sensei-suru-card-1 {
+  margin-left: 117px;
+  width: 50%;
+}
+
+.ingredients-sensei-suru-card-1 img {
+  width:85%;
+}
+
+.ingredients-sensei-suru .ingredients-sensei-suru-card-2 {
+  margin-top: -144%;
+  margin-right: 115px;
+  width: 50%;
+}
+
+.ingredients-sensei-suru-card-2 img {
+  width: 85%;
+}
+
+.poster-sensei-suru {
+  flex-wrap: wrap;
+}
+
+.poster-sensei-suru img {
   width: 90%;
 }
 /*End of Products Page*/
