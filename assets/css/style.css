@@ -554,20 +554,27 @@ footer img {
 }
 
 /*Products Page*/
-.welcome-product{
+.product-page-welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   margin-bottom: 150px;
 }
 
-.welcome-product img {
-  width: 35%;
-  height: 35%;
+.product-page-welcome img {
+  margin: 0 auto;
+  max-width: 50%;
+  margin-bottom: 50px;
 }
 
-.welcome-product p{
-  width: 40%;
-  margin-top: auto;
-  color: #616161;
+.product-page-welcome p{
   text-align: center;
+  margin: -10% auto;
+  font-size: 11pt;
+  max-width: 50%;
+  color: #1c1c1c;
+  font-weight: 500;
 }
 
 .certification{
