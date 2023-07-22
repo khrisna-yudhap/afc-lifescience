@@ -363,22 +363,157 @@ html * {
   padding: 10px;
 }
 
+/*Footer*/
 footer {
-  background-color: #212529;
-  padding: 0;
-  color: #ccc;
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-footer img {
-  max-width: 300px;
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.copyright-section {
-  background-color: #1c1c1c;
-  font-size: 11pt;
-  color: #616161;
-  padding: 10px;
+footer .container .footer-afc-logo {
+  width: 25%;
+  margin-right: 30px;
 }
+
+footer .container .footer-afc-logo img {
+  width: 100%;
+}
+
+footer .container .footer-afc-logo h4 {
+  color: #FFFFFF;
+  margin-top: 8px;
+  font-size: 23px;
+  text-align: center;
+}
+
+footer .container h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+footer .container h2:before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #f00;
+}
+
+.footer-social-media {
+  margin-top: 20px;
+  display: flex;
+}
+
+.footer-social-media li {
+  list-style: none;
+}
+
+.footer-social-media li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.footer-social-media li a:hover {
+  background: #f00;
+}
+
+.footer-social-media li a .fab {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-afc-quicklinks {
+  position: relative;
+  width: 25%;
+}
+
+.footer-afc-quicklinks ul li {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.footer-afc-quicklinks ul li a {
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-afc-quicklinks ul li a:hover {
+  color: #fff;
+}
+
+.footer-afc-contact {
+  width: calc(35% - 60px);
+  margin-right: 0 !important;
+}
+
+.footer-afc-contact .info {
+  position: relative;
+  margin-left: -30px;
+}
+
+.footer-afc-contact .info li {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.footer-afc-contact .info li span:nth-child(1) {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footer-afc-contact .info li span {
+  color: #999;
+}
+
+.footer-afc-contact .info li a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footer-afc-contact .info li a:hover {
+  color: #fff;
+}
+
+.copyright-text {
+  width: 100%;
+  background: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+
+.copyright-text p {
+  padding-top: 10px;
+}
+/*End of Footer*/
 
 /* Secondary Page */
 .page-banner {
@@ -1446,6 +1581,43 @@ footer img {
 
 .opportunity-embed-responsive .story-video-desc {
   margin-left: 20px;
+}
+
+footer {
+  padding: 40px;
+}
+
+footer .container {
+  flex-direction: column;
+}
+
+footer .container .footer-afc-logo {
+  width: 100%;
+}
+
+.footer-social-media {
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.footer-afc-quicklinks {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.footer-afc-contact {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.copyright-text {
+  height: 80px;
+  text-align: center;
+}
+
+.copyright-text p {
+  margin-left: -40px;
+  width: 270px;
 }
 
 /*End of Opportunity Page*/
